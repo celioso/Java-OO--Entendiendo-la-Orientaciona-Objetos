@@ -187,5 +187,7 @@ cómo definir métodos con parámetros y retorno cómo devolver algo usando la p
 
 Si aún tiene dudas sobre las referencias, `this` y el uso de métodos, tenga la seguridad de que en las próximas clases (y cursos) revisaremos los conceptos y practicaremos mucho más. ¿Continuamos?
 
+### Referencia Objeto
+
 
 
