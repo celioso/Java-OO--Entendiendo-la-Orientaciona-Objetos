@@ -3,12 +3,12 @@ package proyectobyteBank;
 //entidad cuenta:
 
 class Cuenta{
-	double saldo;
+	private double saldo;
 	int agencia;
 	int numero;
-	String titular;
+	Cliente titular;
 	
-	// Noretorna valor
+	// No retorna valor
 	public void depositar(double valor){
 		//Esta cuenta	Esta Cuenta	
 		//this account 	this account
@@ -36,6 +36,8 @@ class Cuenta{
 			return false;
 		}
 	}
-	
+	public double obtenerSaldo(){
+		return this.saldo;
+	}
 }
 

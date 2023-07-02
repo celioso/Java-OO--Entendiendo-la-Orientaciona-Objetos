@@ -187,9 +187,60 @@ cómo definir métodos con parámetros y retorno cómo devolver algo usando la p
 
 Si aún tiene dudas sobre las referencias, `this` y el uso de métodos, tenga la seguridad de que en las próximas clases (y cursos) revisaremos los conceptos y practicaremos mucho más. ¿Continuamos?
 
-### Referencia Objeto
+### Haga lo que hicimos en el aula: Referencias
 
-casas
+### Referencias
+
+Continuando con nuestro código.
+
+1. Si lo desea, cree un nuevo proyecto y copie la clase **Cuenta**, o simplemente cree una nueva clase **Cliente** para componer nuestro **byteban**k, nuestra clase **Cliente** debería tener este aspecto:
+
+```java
+public class Cliente {
+
+    String nombre;
+    String numeroIdentidad;
+    String profesion;
+}
+```
+
+2. Defina los atributos de la clase Cliente como prefiera, en el curso, usamos nombre, numeroIdentidad y profesion.
+
+3. Modifique la clase Cuenta agregando un atributo de tipo Cliente.
+
+```java
+public class Cuenta {
+
+    double saldo;
+    int agencia;
+    int numero;
+    Cliente titular;
+}
+```
+
+4. ¡Crea una clase de prueba e instancia un cliente y una cuenta! Recuerde que un atributo del **titular** de la cuenta tiene un **Cliente**
+
+5. Tenga en cuenta que podemos hacerlo más directamente!
+
+`Cuenta cuentaDeMarcela = new Cuenta();`
+`cuentaDeMarcela.titular = new Cliente();` 
+Podemos definir el nombre de un cliente haciendo:
+
+`cuentaDeMarcela.titular.nombre = "Marcela";`
+
+### Lo que aprendimos
+
+Aprendimos en este capítulo:
+
+- Darse cuenta de la relación entre clases a través de la composición;
+
+- Ventajas de aislar información repetida en otra clase;
+
+- Detalles de la composición;
+
+- `NullPointerException` para atributos no inicializados y su cuidado.
+
+
 
 
 
