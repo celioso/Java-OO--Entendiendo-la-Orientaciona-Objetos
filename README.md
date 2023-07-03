@@ -240,7 +240,7 @@ Aprendimos en este capítulo:
 
 - `NullPointerException` para atributos no inicializados y su cuidado.
 
-
+casa 23
 
 
 
