@@ -242,5 +242,7 @@ Aprendimos en este capítulo:
 
 casa 23
 
+fecha terrey
+
 
 
