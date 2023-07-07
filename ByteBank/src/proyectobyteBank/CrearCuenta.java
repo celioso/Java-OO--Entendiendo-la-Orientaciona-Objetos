@@ -11,7 +11,7 @@ public class CrearCuenta {
 		
 		
 		Cuenta segundaCuenta = new Cuenta();
-		segundaCuenta.saldo = 400;
+		segundaCuenta.depositar(400);
 		
 		System.out.println(segundaCuenta.saldo);
 		//System.out.println(primeraCuenta.agencia);
