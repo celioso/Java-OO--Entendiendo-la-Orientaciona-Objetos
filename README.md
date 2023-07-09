@@ -95,7 +95,7 @@ Vamos a comenzar a escribir nuestros métodos.
 1. Escriba el método de **deposita**, que recibe un valor de tipo **double**. Recuerde que cuando nuestro método no devuelve ningún valor, debemos poner la palabra especial **void**, así:
 
 
-````java
+```java
 public void deposita(double valor){
 
 }
